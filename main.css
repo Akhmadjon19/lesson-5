@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo{
+    display: flex;
+
+}
+.list {
+    list-style: none;
+    width: 30%;
+    height: 85px;
+    margin: 40px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    height: 1px;
+    border: 1px solid;
+}
+.side {
+    display: flex;
+}
+.left-side-up {
+    font-size: 14px;
+    opacity: 0.5;
+}
+.left-side-down {
+    letter-spacing: 1px;
+}
+.right-side {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 40px;
+    background-color: green;
+    border-radius: 40px;
+    color: aliceblue;
+}
+.main {
+    width: 1300px;
+    height: 500px;
+    border: 1px solid;
+    margin: 0 auto;
+    border-radius: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("images/Слой\ 2\ 1\ \(1\).png");
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.mainContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    width: 900px;
+    height: 350px;
+    margin-bottom: 25px;
+}
+
+.mainContentUp {
+    color: #fff;
+}
+
+.mainContentUp-1 {
+    font-size: 45px;
+    width: 700px;
+    font-weight: 700;
+}
+
+.mainContentUp-2 {
+    margin-top: 30px;
+    font-size: 25px;
+    width: 300px;
+}
+
+.mainContentDown {
+    width: 100%;
+}
+
+.main-list {
+    margin-left: -50px;
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-list-item {
+    color: #FFFFFF;
+    font-size: 20px;
+    width: 300px;
+}
+.container-2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    width: 85%;
+}
+.left-text{
+    width: 45%;
+    margin: 0 auto;
+}
+.text-top{
+    font-size: 40px;
+    letter-spacing: 4px;
+    height: 40%;
+}
+.text-bottom{
+    width: 75%;
+    font-size: 20px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: 
+    #525252;
+}
+.right-png{
+    width: 45%;
+}
+.right-png img{
+    width: 100%;
+}
+.container-3{
+    margin: 0 auto;
+}
+.text-title{
+    text-align: center;
+    width: 72%;
+    height: 100px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 35px;
+    line-height: 50px;
+    letter-spacing: 2px;
+    margin: 25px auto;
+}
+
+.advantagesTop span{
+    color:#747474;
+}
+.box{
+    display: flex;
+    width: 1300px;
+    height: 700px;
+    margin: 0 auto;
+}
+.left{
+    display: flex;
+    width: 40%;
+    height: 100%;
+    border: 1px solid;
+}
+.left-tree{
+    width: 50%;
+    height: 100%;
+    border: 1px solid ;
+}
+.lt-top{
+    
+}
+.right-tree{
+    width: 50%;
+    height: 100%;
+    border: 1px solid ;
+}
+.right{
+    width: 60%;
+    height: 100%;
+    border: 1px solid;
+}
